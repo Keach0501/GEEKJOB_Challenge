@@ -1,0 +1,29 @@
+------------------
+System Information
+------------------
+         Operating System: Windows 10 Home 64-bit (10.0, Build 16299) (16299.rs3_release.170928-1534)
+                Processor: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz (8 CPUs), ~2.8GHz
+                   Memory: 16384MB RAM
+                Card name: NVIDIA GeForce GTX 1050
+
+
+------------------------
+Disk & DVD/CD-ROM Drives
+------------------------
+      Drive: C:
+ Free Space: 76.2 GB
+Total Space: 120.8 GB
+File System: NTFS
+      Model: SAMSUNG MZVLW128HEGR-000H1
+
+      Drive: D:
+ Free Space: 935.5 GB
+Total Space: 938.4 GB
+File System: NTFS
+      Model: HGST HTS721010A9E630
+
+      Drive: E:
+ Free Space: 1.8 GB
+Total Space: 15.5 GB
+File System: NTFS
+      Model: HGST HTS721010A9E630
