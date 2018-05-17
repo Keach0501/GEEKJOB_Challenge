@@ -23,10 +23,13 @@ public class argument1 extends HttpServlet {
      * @param num
      * @param pw 
      */
-    void even(String num, PrintWriter pw){
-        pw.print(num);
+    void even(int num, PrintWriter pw){
+        if(num%2 == 0){
+         pw.print("偶数");
+    }else{
+            pw.print("奇数");
+        }
     }
-
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -41,11 +44,7 @@ public class argument1 extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         try (PrintWriter out = response.getWriter()) {         
             
-            /**
-             * こっちはintでいいのでしょうか？
-             * 代入する数値
-             */
-            int num = 1;
+            
                         
             /* TODO output your page here. You may use following sample code. */
             out.println("<!DOCTYPE html>");
@@ -54,13 +53,9 @@ public class argument1 extends HttpServlet {
             out.println("<title>Servlet argument1</title>");            
             out.println("</head>");
             out.println("<body>");
-            
-            if (num%2==0){
-                even("<h1>"+"偶数"+"<h1>",out);
-            } else {
-                even("<h1>"+"奇数"+"<h1>",out);
-            }       
-                      
+            even (1, out);
+            out.println("<br>");
+            even (2, out);                     
             out.println("</body>");
             out.println("</html>");
         }
