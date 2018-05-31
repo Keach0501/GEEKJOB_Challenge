@@ -17,7 +17,8 @@ public class Classcreate2 {
         
         one.setClasscreate("day", 1);
         
-        System.out.println(one);
+        System.out.println(one.date);
+        System.out.println(one.num);
     }
     
 }
