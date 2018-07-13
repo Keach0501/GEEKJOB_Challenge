@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="/DBcontrol/updateserv" method="post">
+            <!--<div>TODO write content</div>-->
+            profilesID：<input type = "number" name = "ID" size="20" max="100" required="required">
+            <br>
+            name:
+            &emsp;&nbsp;&nbsp;&thinsp;
+            <input type = "text" name = "Name" required="required">
+            <br>
+            tel:
+            &emsp;&emsp;&nbsp;&thinsp;&thinsp;&thinsp;
+            <input type = "tel" name = "tel" size="20" maxlength="15" required="required">
+            例:012-345-6789
+            <br>
+            age:
+            &emsp;&emsp;&nbsp;&thinsp;
+            <input type = "number" name = "age" size="20" max="150" required="required">
+            <br>
+            birthday:
+            &nbsp;&nbsp;
+            <input type = "text" name = "birthday" size="20" maxlength="10" required="required">
+            例:2000-01-02 (年-月-日)
+            <br>
+            <input type="submit" name="btnSubmit" value="送信">
+        </form>
+    </body>
+</html>
